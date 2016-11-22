@@ -1216,6 +1216,7 @@ partition :: (a -> Bool) -> Vector a -> (Vector a, Vector a)
 partition = G.partition
 
 {-# INLINE groupBy #-}
+groupBy :: (a -> a -> Bool) -> Vector a -> [Vector a]
 groupBy = G.groupBy
 
 -- | /O(n)/ Split the vector in two parts, the first one containing those
