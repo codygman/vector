@@ -121,6 +121,9 @@ module Data.Vector (
   -- ** Partitioning
   partition, unstablePartition, span, break,
 
+  -- ** Grouping
+  groupBy,
+
   -- ** Searching
   elem, notElem, find, findIndex, findIndices, elemIndex, elemIndices,
 
