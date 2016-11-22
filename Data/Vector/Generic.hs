@@ -105,7 +105,7 @@ module Data.Vector.Generic (
   partition, unstablePartition, span, break,
 
   -- ** Grouping
-  groupBy
+  groupBy,
 
 
   -- ** Searching
