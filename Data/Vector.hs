@@ -1215,6 +1215,9 @@ partition :: (a -> Bool) -> Vector a -> (Vector a, Vector a)
 {-# INLINE partition #-}
 partition = G.partition
 
+{-# INLINE groupBy #-}
+groupBy = G.groupBy
+
 -- | /O(n)/ Split the vector in two parts, the first one containing those
 -- elements that satisfy the predicate and the second one those that don't.
 -- The order of the elements is not preserved but the operation is often
